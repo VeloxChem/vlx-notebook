@@ -1,0 +1,33 @@
+name: vlxenv
+channels:
+  - conda-forge
+  - veloxchem
+  - tbmasood
+dependencies:
+  - python>=3.10
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-spellchecker
+  - jupyterlab_code_formatter
+  - webcolors
+  - jsonschema-with-format-nongpl
+  - black
+  - isort
+  - ghp-import
+  - k3d
+  - ipympl
+  - ipywidgets
+  - openmm
+  - py3dmol
+  - rdkit
+  - veloxchem
+  - multipsi
+  - dftd4-python
+  - xtb-python
+  - valet
+  - adcc<0.16
+  - pip
+  - pip:
+    - git+https://github.com/gator-program/respondo.git@v0.0.5
+    - git+https://github.com/gator-program/gator.git@vlx-newints
+
