@@ -1,0 +1,22 @@
+name: phymol-ts3
+channels:
+  - conda-forge
+  - veloxchem
+dependencies:
+  - python>=3.10
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-spellchecker
+  - jupyterlab_code_formatter
+  - webcolors
+  - jsonschema-with-format-nongpl
+  - black
+  - isort
+  - ghp-import
+  - k3d
+  - ipympl
+  - ipywidgets
+  - py3dmol
+  - rdkit
+  - veloxchem
+  - dftd4-python
