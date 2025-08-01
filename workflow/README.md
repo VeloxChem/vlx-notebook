@@ -8,7 +8,7 @@ Download the appropriate installer for your operating system and follow the inst
 
 ## Create the conda environment
 
-Using the `workflow.yml`, you can create a conda environment called `vlxenv` and install all the needed packages to run the Jupyter notebooks in this repository.
+Using the `workflow.yml`, you can create a conda environment called `workflow` and install all the needed packages to run the Jupyter notebooks in this repository.
 
 ```
 conda env create -f workflow.yml
@@ -17,6 +17,6 @@ conda env create -f workflow.yml
 ## Use the new environment
 
 ```
-conda activate vlxenv
+conda activate workflow
 jupyter-lab Build.ipynb
 ```
