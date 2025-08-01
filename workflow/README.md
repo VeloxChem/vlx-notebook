@@ -1,6 +1,6 @@
 # VeloxChem quantum-classical interoperability workflows
 
-This folder contains Jupyter notebooks for VeloxChem connected to the article *VeloxChem quantum--classical interoperability for modeling of complex molecular systems*. To run the notebooks, you will need to install VeloxChem alongside a few other Python packages and our recommendation is to perform the installation using conda, as described below.
+This folder contains Jupyter notebooks for VeloxChem connected to the article *VeloxChem quantum--classical interoperability for modeling of complex molecular systems*. To run the notebooks, you will need to install [VeloxChem](https://veloxchem.org/docs/intro.html) alongside a few other Python packages and our recommendation is to perform the installation using conda, as described below.
 
 ## Install miniconda
 
