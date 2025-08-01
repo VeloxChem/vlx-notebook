@@ -1,0 +1,12 @@
+name: workflow
+channels:
+  - conda-forge
+  - veloxchem
+dependencies:
+  - python>=3.10
+  - veloxchem
+  - jupyterlab
+  - openmm
+  - py3dmol
+  - rdkit
+  - pymbar
