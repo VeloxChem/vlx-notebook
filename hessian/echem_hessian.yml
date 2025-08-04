@@ -1,0 +1,9 @@
+name: echem-hessian
+channels:
+  - conda-forge
+  - veloxchem
+dependencies:
+  - jupyterlab
+  - veloxchem
+  - rdkit
+  - py3Dmol
