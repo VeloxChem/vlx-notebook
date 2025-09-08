@@ -5,7 +5,8 @@ This repository contains Jupyter notebooks for VeloxChem. Read more about VeloxC
 
 Workflow
 -------------
-The Workflow folder contains Jupyter Notebook in connection to the VeloxChem Quantum–Classical Interoperability article published in JPCA: 
+The Workflow folder contains Jupyter Notebook in connection to the VeloxChem Quantum–Classical Interoperability article published in JPCA:
+
 .. image:: https://img.shields.io/badge/JPCA-10.1021%2Facs.jpca.5c03187-informational?style=flat-square
         :alt: JPCA paper
         :target: https://pubs.acs.org/doi/10.1021/acs.jpca.5c03187
