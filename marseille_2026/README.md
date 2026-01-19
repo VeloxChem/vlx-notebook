@@ -2,14 +2,14 @@
 
 ## Insatllation instructions using conda
 
-We recommend installing the required software through conda using the provided [`echem-marseille.yml`]() file. For this, you will have to install conda first, if you don't already have it installed. We recommend using the minimal conda installer called [miniconda](https://www.anaconda.com/download/success). Follow the [instructions](https://docs.anaconda.com/miniconda/install/) for your operating system on the [miniconda website](https://docs.anaconda.com/miniconda/install/).
+We recommend installing the required software through conda using the provided [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file. For this, you will have to install conda first, if you don't already have it installed. We recommend using the minimal conda installer called [miniconda](https://www.anaconda.com/download/success). Follow the [instructions](https://docs.anaconda.com/miniconda/install/) for your operating system on the [miniconda website](https://docs.anaconda.com/miniconda/install/).
 
 
 Once you have miniconda, you can install the required conda packages using a command prompt. For Linux and macOS, you can directly use a terminal. For Windows, we recommend using the **Anaconda Powershell prompt**, which should be available as soon as you have installed miniconda.
 
 ### Create the echem environment
 
-Using the [`echem-marseille.yml`]() file provided, all needed packages can be installed using the terminal command.
+Using the [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file provided, all needed packages can be installed using the terminal command.
 
 ```
 conda env create -f echem-marseille.yml
