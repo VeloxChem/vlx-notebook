@@ -1,0 +1,22 @@
+name: vlxenv
+channels:
+  - conda-forge
+  - veloxchem
+  - tbmasood
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - k3d
+  - ipympl
+  - ipywidgets
+  - openmm
+  - mdanalysis
+  - py3dmol
+  - rdkit
+  - openbabel
+  - veloxchem
+  - multipsi
+  - dftd4-python
+  - xtb
+  - cppe
+  - valet
