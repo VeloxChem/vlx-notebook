@@ -1,10 +1,11 @@
 name: vlxenv
 channels:
-  - conda-forge
-  - veloxchem
+  - veloxchem/label/test
   - tbmasood
+  - conda-forge
 dependencies:
   - python>=3.10
+  - libblas=*=*openblas
   - jupyterlab
   - k3d
   - ipympl
@@ -15,7 +16,6 @@ dependencies:
   - rdkit
   - openbabel
   - veloxchem
-  - multipsi
   - dftd4-python
   - xtb
   - cppe

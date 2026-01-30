@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+vlx_*.h5
+*.pdb
+*.xml
+*.top
+*.gro
+*.h5
+*.itp
