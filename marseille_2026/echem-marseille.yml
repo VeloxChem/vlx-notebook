@@ -19,3 +19,7 @@ dependencies:
   - xtb
   - cppe
   - valet
+  - pip
+  - pip:
+    - pyscf
+    - git+https://github.com/pyscf/properties.git
