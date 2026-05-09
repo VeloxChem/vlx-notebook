@@ -37,14 +37,14 @@ If the cell runs and you get no errors, then the installation worked correctly. 
 
 ### Conda environment for Wednesday afternoon
 
-The tutorial on Wednesday afternoon on force field parametrization with Neural Network potentials requires a special version of Openmm. To avoid incompatibilities with other packages, you will need to create a special conda environment for this session. Donwload the `wednesday_afetrnoon.yml` file and create a new environment the same way as above. First, run `conda deactivate` and make sure you are in the (base).
+The tutorial on Wednesday afternoon on force field parametrization with Neural Network potentials requires a special version of OpenMM. To avoid incompatibilities with other packages, you will need to create a special conda environment for this session alone. Donwload the [`wednesday-afternoon.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/wednesday-afternoon.yml) file and create a new environment the same way as above. First, run `conda deactivate` and make sure you are in (base):
 
 ```
 (echem-marseille) $ conda deactivate
 (base) $
 ```
 
-Then install the `wednesday-afternoon` environment using the yml file.
+Then install the `wednesday-afternoon` environment using the [`wednesday-afternoon.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/wednesday-afternoon.yml) file:
 
 ```
 conda env create -f wednesday-afternoon.yml
