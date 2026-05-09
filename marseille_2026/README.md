@@ -35,6 +35,22 @@ import veloxchem as vlx
 
 If the cell runs and you get no errors, then the installation worked correctly. If you run into any issues, you are welcome to join an online video meeting with us on **Wednesday 13 May** at **13:00**, where we will help you with the installation and answer your questions. A link to the meeting will be sent to all registered participants.
 
+### Conda environment for Wednesday afternoon
+
+The tutorial on Wednesday afternoon on force field parametrization with Neural Network potentials requires a special version of Openmm. To avoid incompatibilities with other packages, you will need to create a special conda environment for this session. Donwload the `wednesday_afetrnoon.yml` file and create a new environment the same way as above. First, run `conda deactivate` and make sure you are in the (base).
+
+```
+(echem-marseille) $ conda deactivate
+(base) $
+```
+
+Then install the `wednesday-afternoon` environment using the yml file.
+
+```
+conda env create -f wednesday-afternoon.yml
+```
+
+
 ### Troubleshooting for Windows users
 
 If ipykernel crashes when running `import veloxchem`, the cause may be the use of an incorrect MPI library. You can check this, by running Python in the Anaconda Power Shell:

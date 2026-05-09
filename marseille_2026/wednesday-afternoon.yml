@@ -1,0 +1,20 @@
+name: wednesday-afternoon 
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - openmm
+  - openmmforcefields
+  - openff-toolkit
+  - py3dmol
+  - openmm-plumed
+  - pytorch
+  - torchani
+  - openmm-ml
+  - openmm-torch
+  - nnpops
+  - pyscf
+  - torchview
+  - ipython
