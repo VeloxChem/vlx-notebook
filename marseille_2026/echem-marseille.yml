@@ -20,6 +20,7 @@ dependencies:
   - cppe
   - valet
   - pip
+  - git
   - pip:
     - pyscf
     - git+https://github.com/pyscf/properties.git
