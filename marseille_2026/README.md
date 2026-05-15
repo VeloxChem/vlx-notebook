@@ -9,7 +9,7 @@ Once you have miniconda, you can install the required conda packages using a com
 
 ### Create the echem environment
 
-Using the [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file provided, all needed packages can be installed using the terminal command. For Windows, you can use the [`echem-marseille-windows.yml`]() file without PyScf, or do the installation in [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about).
+Using the [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file provided, all needed packages can be installed using the terminal command. For Windows, you can use the [`echem-marseille-windows.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille-windows.yml) file without PyScf, or do the installation in [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about).
 
 ```
 conda env create -f echem-marseille.yml
@@ -54,8 +54,6 @@ conda env create -f wednesday-afternoon.yml
 
 
 ### Troubleshooting for Windows users
-
-
 
 If ipykernel crashes when running `import veloxchem`, the cause may be the use of an incorrect MPI library. You can check this, by running Python in the Anaconda Power Shell:
 
