@@ -55,6 +55,8 @@ conda env create -f wednesday-afternoon.yml
 
 ### Troubleshooting for Windows users
 
+For issues with the `wednesday-afternoon.yml` file, please skip the installation, or install through [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about).
+
 If ipykernel crashes when running `import veloxchem`, the cause may be the use of an incorrect MPI library. You can check this, by running Python in the Anaconda Power Shell:
 
 ```
