@@ -9,7 +9,7 @@ Once you have miniconda, you can install the required conda packages using a com
 
 ### Create the echem environment
 
-Using the [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file provided, all needed packages can be installed using the terminal command.
+Using the [`echem-marseille.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/echem-marseille.yml) file provided, all needed packages can be installed using the terminal command. For Windows, you can use the [`echem-marseille-windows.yml`]() file without PyScf, or do the installation in [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about).
 
 ```
 conda env create -f echem-marseille.yml
@@ -37,7 +37,9 @@ If the cell runs and you get no errors, then the installation worked correctly. 
 
 ### Conda environment for Wednesday afternoon
 
-The tutorial on Wednesday afternoon on force field parametrization with Neural Network potentials requires a special version of OpenMM. To avoid incompatibilities with other packages, you will need to create a special conda environment for this session alone. Donwload the [`wednesday-afternoon.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/wednesday-afternoon.yml) file and create a new environment the same way as above. First, run `conda deactivate` and make sure you are in (base):
+The tutorial on Wednesday afternoon on force field parametrization with Neural Network potentials requires a special version of OpenMM. To avoid incompatibilities with other packages, you will need to create a special conda environment for this session alone. For Windows machines, the packages needed for Wednesday afternoon can only be installed on [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about). If you do not wish to install WSL, please skip this section. You will be able to borrow one of our laptops, or follow the tutorial with one of the other students.
+
+Donwload the [`wednesday-afternoon.yml`](https://github.com/VeloxChem/vlx-notebook/blob/main/marseille_2026/wednesday-afternoon.yml) file and create a new environment the same way as above. First, run `conda deactivate` and make sure you are in (base):
 
 ```
 (echem-marseille) $ conda deactivate
@@ -52,6 +54,8 @@ conda env create -f wednesday-afternoon.yml
 
 
 ### Troubleshooting for Windows users
+
+
 
 If ipykernel crashes when running `import veloxchem`, the cause may be the use of an incorrect MPI library. You can check this, by running Python in the Anaconda Power Shell:
 
