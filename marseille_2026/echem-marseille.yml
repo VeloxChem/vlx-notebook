@@ -6,6 +6,9 @@ channels:
 dependencies:
   - python>=3.12
   - jupyterlab
+  - jupyterlab_code_formatter
+  - black
+  - isort
   - k3d
   - ipympl
   - ipywidgets
