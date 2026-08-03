@@ -22,3 +22,11 @@ The Phymol folder contains files and Jupyter Notebooks used for the PHYMOL Train
 Lumi
 -------------
 The Lumi folder contains files and Jupyter Notebooks used for the  LUMI workshop, 26.-27.5.2025, CSC Training Facilities, Espoo, Finland (https://www.lumi-supercomputer.eu/events/veloxchem-on-lumi/)
+
+SMILES_to_TS
+-------------
+The SMILES_to_TS folder contains the Jupyter Notebook in connection to the SMILES to transition state article published in JCC:
+
+.. image:: https://img.shields.io/badge/JCC-10.1002/jcc.70454-informational?style=flat-square
+        :alt: JCC paper
+        :target: https://doi.org/10.1002/jcc.70454
