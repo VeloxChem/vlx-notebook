@@ -46,7 +46,7 @@ def main():
         solv_water.platform = 'HIP'
         solv_water.lambdas_stage1 = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
         
-        ligand = vlx.Molecule.read_pdb('ligand.pdb')
+        ligand = vlx.Molecule.read_pdb_file('ligand.pdb')
         deltaf_water = solv_water.compute(ligand)
         
         fe_water = deltaf_water['free_energy']
